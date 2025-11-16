@@ -13,16 +13,12 @@
   </head>
   <body>
     <header>
-      <section id="landing">
-      <div>
-      <nav>
+      <section id="nav">
         <div class="row nav__row">
-        <div class="nav__container">
-          <img
-            class="logo" src="./assests/drive-download-assets/logo.2c489fc453a1783cbadacf914efa3df6.svg"
-          />
-          <h1 class="nav__name">Treact</h1>
-        </div>
+          <div class="nav__container">
+            <img class="logo" src="./assests/drive-download-assets/logo.2c489fc453a1783cbadacf914efa3df6.svg"/>
+            <h1 class="nav__name">Treact</h1>
+          </div>
           <ul class="nav__links">
             <li>
                 <a href="#features" class="nav__link">About</a>
@@ -40,19 +36,18 @@
                 <a href="#" class="nav__link">Login</a>
             </li>
             <li>
-                <button class="btn">
+                <button class="btn nav__btn">
                 <a href="#" class="nav__link btn">Sign up</a></button>
             </li>
-
           </ul>
         <div class="menu">
-        <button class="btn__menu" onclick="openMenu()">
-          <i class="fa-solid fa-bars"></i>
-        </button>
-        <div class="menu__backdrop">
-          <button class="btn__menu btn__menu--close" onclick="closeMenu()">
-          <i class="fa-solid fa-xmark"></i>
+          <button class="btn__menu" onclick="openMenu()">
+            <i class="fa-solid fa-bars"></i>
           </button>
+          <div class="menu__backdrop">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
             <ul class="list__items">
               <li class=" menu__list">
                 <a class="menu__link no-cursor">About</a>
@@ -79,6 +74,10 @@
     
     </div>
     </div>
+  </section>
+      <section id="landing">
+      <div>
+      
         <div class="landing__wrapper">
             <div class="landing__title">
                 <h1 class="landing__heading">
@@ -101,7 +100,7 @@
                 <img src="./assests/drive-download-assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt="">
             </figure>
         </div>
-      </nav>
+      
     </section>
     </header>
 
@@ -195,7 +194,7 @@
         <div class="row row__quality">
           <div class="quality__wrapper">
           <h3>
-            <span class="purple">QUALITY WORK <span>
+            <span class="purple quality__title">QUALITY WORK <span>
             </h3>
           <h1 class="quality__heading">
             Designed & Developed by <span class="purple"> Professionals.</span>
@@ -221,7 +220,7 @@
           </figure>
         </div>
         <div class="row steps__container">
-          <h3 class="purple">STEPS</h3>
+          <h3 class="purple step__title">STEPS</h3>
           <h1 class="row__title">Easy to <span class="purple">Get Started.</span></h1>
           <div class="step__box">
             <p class="step__num">01</p>
@@ -366,7 +365,7 @@
         <img class="testimonials__img" src="assests/drive-download-assets/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg" alt="">
         </figure>
         <div class="row testimonials__row">
-          <h3 class="purple">TESTIMONIALS</h3>
+          <h3 class="purple testimonials__sub-title">TESTIMONIALS</h3>
           <h1 class="testimonials__title">Our Clients <span class="purple">Love Us.</span></h1>
           <p>Lorem ipsum dolor, elit. Est deserunt iste ipsum. Perferendis ex, minus in laboriosam officia quas. Ipsum voluptas unde earum accusamus ratione tempora veritatis corporis ea soluta.</p>
           <div class="">
